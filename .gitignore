@@ -1,0 +1,69 @@
+########################################
+# Node (backend & frontend)
+########################################
+/backend/node_modules
+/frontend/node_modules
+
+########################################
+# Logs
+########################################
+*.log
+backend/dist/
+frontend/dist/
+node_modules/
+.vite/
+
+# Testing and coverage
+coverage/
+.DS_Store
+**/coverage/
+vscode/
+**/*.lcov
+
+########################################
+# OS-specific
+########################################
+.env
+.DS_Store
+Thumbs.db
+
+########################################
+*.log
+# IDE/editor folders
+*.bak
+########################################
+Front-end/.vite/
+.vscode/
+.idea/
+Back-end/node_modules/
+*.sublime-project
+package-lock.json
+*.sublime-workspace
+
+########################################
+# Runtime / Temp files
+########################################
+*.pid
+*.seed
+*.pid.lock
+*.swp
+*.bak
+*.tmp
+*.orig
+
+########################################
+# MongoDB
+########################################
+dump/
+
+########################################
+# ESLint / TypeScript cache
+########################################
+.eslintcache
+*.tsbuildinfo
+
+########################################
+# Optional lock files (uncomment if needed)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
