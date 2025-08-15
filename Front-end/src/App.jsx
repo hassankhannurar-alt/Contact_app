@@ -1,7 +1,7 @@
 import ContactList from "./Components/Pages/ContactList.jsx";
 import Login from "./Components/Pages/login.jsx";
 import AddNewContact from "./Components/Pages/AddNewCon.jsx";
-import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
+import { Routes, Route, Navigate } from "react-router-dom";
 import UserDetail from "./Components/Pages/User.Detail.jsx";
 import Signup from "./Components/Pages/signup.jsx";
 import { useSelector } from "react-redux";
